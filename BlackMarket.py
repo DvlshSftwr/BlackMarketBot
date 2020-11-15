@@ -284,7 +284,9 @@ def main_function():
 	
 	BlackMarket.run(Const.TOKEN)
 	
-	return 0
+	print("[{( Later Hater )}]")
+	
+	return EXIT_SUCCESS
 
 
 sys.exit(main_function())
