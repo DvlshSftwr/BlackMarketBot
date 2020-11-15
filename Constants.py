@@ -1,8 +1,6 @@
-
-
 class Constants:
 	BOT_EXEC = 'BlackMarket.py'
-	MAIN_DIR = '/home/anyenz/Documents/PythonFiles/BlackMarketBot'
+	MAIN_DIR = ''
 	TOKEN = ''
 	APP_DESC = 'BlackMarket is a custom economical management bot by Dvlsh::Sftwr'
 	PREFIX = '--'
@@ -10,7 +8,12 @@ class Constants:
 	WAL = 'wallet'
 	BNK ='bank'
 	LATENCY = '```py\nLatency : {0.latency}```'
-	AUTHOR = 'Fluffykins Allmighty'
+	
+	
+	class BotAuthor:
+		AUTHOR = 'Fluffykins Allmighty'
+		DISCORD = "`5P4{3 |_0RD |V|07|-|3RF|_|{K3R#7797`"
+		E_MAIL = "`DvlshSftwr@protonmail.com`"
 	
 	class EMJ:
 		FOOD_EMOJI = [
@@ -127,8 +130,37 @@ class Constants:
 			"A diagnostics pad for system analytics.\n\n\n\n\n+1d #TECH\noption : \ndiagnotsic-pad",
 			"Need to do some PI work? These suckers magnify, hide your eyes, and have optical display tech built in. Built em myself.\n\n+1d #INVS\n\noption : goggles"
 			]
+	
+	
+	class Prompt:
+		HOE1 = '```css\nSometimes, shit just doesnt go your way. You decided "\Ehhh, I know my way arround a dick, why not use my sensational skills to earn some cash?\" Well, you made $120 for sucking some sweaty fat dudes knob! Gross...worse yet, on your way home, you get your ass kicked and lose the whole haul in the mugging! Fuckin A...```'
+		HOE2 = '```css\nYou decided to go work the corner your mom used to and made $120 for a blowjob! Too bad you contracted syphilis. Antibiotics are expensive so youre left with ${} bucks. Bummer```'
+		HOE3 = '```css\nHard up for cash, you decide to degrade yourself and sell your mouth. Unfortunately you fucking suck at oral and used too much teeth. You made ${} for you to stop and get your skilless mouth off their prick. Good job, loser.```'
+		HOE4 = '```css\nWorking the night, you managed to make a good $100. Unfortunately, you got busted by an officer. Devious bitch lets you off, but only after forcing you to get her off and confiscating most of your earnings, leaving you with {} to show for your work. Twatting cunt! At least she was sexy...```'
+		HOE5 = '```css\nYou worked as a slut at a bar and the guys loved your thicc thighs with stockings. You received ${ammount} from the men. AND THE WOMEN. Whos bad? {usr}s bad, baby!```'
+		HOE6 = '```css\nYou tried to have sex with an officer cause you were horny, the officer liked it and had sex with you, the officer paid ${}. Skills~~```'
+		HOE7 = '```css\nYou and your significant other decided to make some amateur furry porn. Well recieved, you earned ${}. Niiiice ```'
+		HOE8 = '```css\nYou fell from the pole and embarrassed yourself. Pay {} to fix your leg.```'
+		HOE9 = '```css\nYou took a banana up the ass whilst streaming and earned ${} through donations. Puttin in work, baby.```'
+		HOE10 = '```css\nYou used your salacious oral skills to deepthroat a thicc cucumber on stream and earned ${} in donations. What a throat bulge that was! >;3```'
+		HOE11 = ''
+		HOE12 = ''
 		
+		MUG1 = "```css\nyou scared some rich old {0} into giving you their wallet and took home ${1}\nDick move man. But hey, phat paid, right. e,..,e```"
+		MUG2 = "```css\nyou beat some fat {0} on a scooter with a riding crop and took ${1} off them for calling you a faget. Nice >;3.```"
+		MUG3 = "```css\nyou shoved some drunk {0} in a dumpster and took ${1} for grabbing your ass. ```"
+		MUG4 = "```css\nyou mugged someone but they gave you a rough time. You got $100, but gotta go buy some bandages...\nand maybe some candy...${} is your payout```"
+		MUG5 = "```css\nou scared some stoner kids out of ${} and a bag of kush. Good job.```"
+		MUG6 = "```css\nyou tried to mug someone and got your ass kicked and ${} thrown at you```"
+		MUG = "```css\nyou tried to mug a cop and got arrested. Your fine is ${}```"
+		MUG8 = "```css\nyou mugged a cop's son and got arrested. Your fine is ${}```"
+		MUG9 = "```css\nyou tried to mug someone and got arrested. Your fine is ${}```"
+		MUG10 = "```css\nyou tried to mug someone and got mugged. You lost ${}```"
+		MUG11 = "```css\nyou tried to mug someone and got mugged. You lost ${}```"
+		MUG12 = "```css\nyou tried to mug someone and got mugged. You loose ${}```"
 		
+	
+	
 	class F:
 		JSON_FILE_1 = 'cog/Bank.json'
 		JSON_FILE_2 = 'cog/Store.json'
@@ -154,6 +186,7 @@ class Constants:
 	
 	
 	class URL:
+		BOT_PORTAL = "https://discord.com/oauth2/authorize?client_id=767825670394871879&scope=bot"
 		DEF_WALLET_IMG = 'https://image.freepik.com/free-photo/dirty-hands-homeless-poor-man-with-empty-wallet-modern-capitalism-society_140289-3.jpg'
 		WALLET_IMG_1 = 'https://dayair.org/wp-content/uploads/2017/04/money-wallet.jpg'
 		WALLET_IMG_2 = 'http://www.todayifoundout.com/wp-content/uploads/2017/10/wallet-full-of-money.png'
@@ -203,12 +236,14 @@ class Constants:
 		DAD = 'papi'
 		PROS = 'hoe'
 		WORK = 'work'
+		MUG = 'mug'
+		FGT = 'street-fight'
 		E = 'E'
 		F = 'F'
 		FOOD = 'food='
 		TWH = 'twinkie-house='
 		MTL_BENDING = 'gat-bending'
 def MY_ID():
-	return '415262753230422036'
+	return ''
 
 Const = Constants()
