@@ -8,6 +8,7 @@ class Constants:
 	WAL = 'wallet'
 	BNK ='bank'
 	LATENCY = '```py\nLatency : {0.latency}```'
+	EXIT_SUCCESS = 0
 	
 	
 	class BotAuthor:
