@@ -11,3 +11,6 @@
 
 ### Note from Fluffykins
 This is a fun sort of economy bot I wrote for a friend of mine. It is being _regularly_ updated and modified by myself. It has feen a fun little ride, and I don't plan to stop here.
+
+#### Bot Portal
+https://discord.com/oauth2/authorize?client_id=767825670394871879&scope=bot
