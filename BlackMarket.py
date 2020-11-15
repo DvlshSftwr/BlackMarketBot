@@ -73,7 +73,7 @@ async def on_message(message : discord.Message):
 """
 
 
-@BlackMarket.command(name = 'ld-ext=')
+@BlackMarket.command(name = 'ld=')
 async def ld_extntn(ctx : commands.Context, extension):
 	"""Load an extention to the bot"""
 	
@@ -91,7 +91,7 @@ async def ld_extntn(ctx : commands.Context, extension):
 
 
 
-@BlackMarket.command(name = 'uld-ext=')
+@BlackMarket.command(name = 'uld=')
 async def ld_extntn(ctx : commands.Context, extension):
 	"""Unload an extention from the bot"""
 	
@@ -110,7 +110,7 @@ async def ld_extntn(ctx : commands.Context, extension):
 
 @BlackMarket.command(name = Const.CMD.EXT)
 async def shutdown(ctx : commands.Context, arg = "0"):
-	"""shuts down BlackMarket bot. format : -e [exit value]"""
+	"""shuts down BlackMarket bot."""
 	
 	id = str(ctx.author.id)
 	usr = ctx.author.name
@@ -155,7 +155,7 @@ async def reset_bot(ctx : commands.Context, arg = 0):
 
 @BlackMarket.command(name = Const.CMD.PING)
 async def latency_test(ctx : commands.Context, arg = '1'):
-	"""test latency! format = -p [ammount of pings to send]"""
+	"""test latency!"""
 	
 	id = ctx.author.id
 	usr = ctx.author.name
@@ -177,9 +177,10 @@ async def daddy(ctx : commands.Context):
 	 
 	embed0 = discord.Embed(color = Const.COL.LIME)
 	
-	embed0.set_author(name = Const.AUTHOR, url = Const.URL.AUTHOR_GITHUB, icon_url = Const.URL.AUTHOR_ICON)
-	embed0.add_field(name = "Email", value = "`DvlshSftwr@protonmail.com`", inline = False)
-	embed0.add_field(name = "Discord", value = "`5P4{3 |_0RD |V|07|-|3RF|_|{K3R#7797`", inline = False)
+	embed0.set_author(name = Const.BotAuthor.AUTHOR, url = Const.URL.AUTHOR_GITHUB, icon_url = Const.URL.AUTHOR_ICON)
+	embed0.add_field(name = "Email", value = Const.BotAuthor.E_MAIL , inline = False)
+	embed0.add_field(name = "Discord", value = Const.BotAuthor.DISCORD, inline = False)
+	embed0.add_field(name = "Bot 0Auth2 Portal", value = Const.URL.BOT_PORTAL, inline = False)
 	embed0.set_footer(text = "Have a bug to report? Want to contribute? Find me here!\nJust...don't bug me for no reason, you degens e,..,e")
 	
 	await ctx.send(embed = embed0)
