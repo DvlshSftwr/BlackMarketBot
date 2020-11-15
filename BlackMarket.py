@@ -286,7 +286,7 @@ def main_function():
 	
 	print("[{( Later Hater )}]")
 	
-	return EXIT_SUCCESS
+	return Const.EXIT_SUCCESS
 
 
 sys.exit(main_function())
